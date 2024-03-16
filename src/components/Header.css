@@ -1,0 +1,15 @@
+.button-text-container{
+    margin-left: 10px;
+    display: flex;
+}
+.button-store-name{
+    font-size: 16px;
+}
+@media screen and (max-width: 900px) {
+    .button-store-name{
+        display: none;
+    }
+    .customAppButton{
+        display: none;
+    }
+}

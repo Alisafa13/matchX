@@ -1,0 +1,56 @@
+.mySwiper2 {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .top10UserTop3 {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 340px;
+  }
+  
+  .top10UserTop3 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .mySwiper3 {
+    width: 80%;
+    height: 380px;
+  }
+  
+  .top10User {
+    position: relative; 
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+
+.top10User h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px; 
+    color: white; 
+    z-index: 1; 
+}
+.top10User p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px; 
+    color: white; 
+    z-index: 1; 
+}
+.top10User img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
